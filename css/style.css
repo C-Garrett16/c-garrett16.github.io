@@ -59,6 +59,7 @@ a {
 }
 
 #flex img {
+  width: 80%;
   margin: 25px auto;
 }
 
@@ -148,9 +149,18 @@ footer {
     justify-content: space-around;
   }
 
+  .flex-item {
+    flex-grow: 0;
+  }
+
+  #flex img {
+    width: auto;
+    margin: 10% auto;
+  }
+
   article {
     border: 5px solid #3FA9F5;
-    margin: 10%;
+    margin: auto;
     width: 80%;
     font-size: 1.25em;
     box-shadow: 1px 1px 3px black;
