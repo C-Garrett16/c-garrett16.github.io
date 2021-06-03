@@ -16,7 +16,6 @@ body {
 }
 
 a:hover {
-  color: #3FA9F5;
   text-decoration: underline;
 }
 
@@ -34,17 +33,17 @@ svg {
 }
 
 h1 {
-  border-bottom: solid 4px #3FA9F5;
+  border-bottom: solid 4px #404041;
   border-radius: 5px;
   padding-bottom: 10px;
   margin: 0 auto 20px;
-  color: #404041;
+  color: #3FA9F5;
   width: 90%;
 }
 
 a {
   text-decoration: none;
-  color: #666;
+  color: #3FA9F5;
 }
 
 .nav-container {
