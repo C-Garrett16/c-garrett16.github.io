@@ -10,7 +10,8 @@ darker : #404041;
 }
 
 body {
-  font-family: arial, sans-serif;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-weight: 300;
   margin: 0;
   text-align: center;
 }
@@ -39,11 +40,16 @@ h1 {
   margin: 0 auto 20px;
   color: #3FA9F5;
   width: 90%;
+  text-shadow: 1px 2px 3px #404041;
 }
 
 a {
   text-decoration: none;
   color: #3FA9F5;
+}
+
+main {
+  margin: 5%;
 }
 
 .nav-container {
@@ -58,8 +64,12 @@ a {
   border-radius: 5px;
 }
 
+.flex-item {
+  margin-bottom: 4rem;
+}
+
 #flex img {
-  width: 80%;
+  width: 90%;
   margin: 25px auto;
 }
 
@@ -85,6 +95,7 @@ article h3 {
 }
 
 article p {
+  padding: .5em;
   font-size: 1.1em;
 }
 
@@ -138,7 +149,7 @@ footer {
 
   h2 {
     padding: 0 10px 20px;
-    margin: 30px auto 100px;
+    margin: 30px auto 0;
     width: 40%;
     font-size: 2.25em;
   }
