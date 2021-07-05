@@ -110,6 +110,17 @@ footer {
   padding: 10px;
 }
 
+#announcement {
+  font-size: 1.25em;
+  color: white;
+  margin: 0;
+}
+
+#ann-container {
+  padding: 10px;
+  background-color: #323232;
+}
+
 @media screen and (min-width: 850px) {
   header {
     text-align: left;

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.png">
     <meta name="viewport" content="width=device-width">
   </head>
@@ -23,7 +23,9 @@
         <li><a href="/about.html">About</a></li>
       </ul>
     </header>
-
+    <div id="ann-container" onclick="hideOnClick()">
+      <span id="announcement">Now offering Responsive Website Design! I'll help you design your own personal site and create it from the ground up!</span>
+    </div>
     <main>
       <section id="about-container">
         <h2>About Me</h2>
@@ -44,6 +46,11 @@
         <p>&copy; Colton Garrett Reid, 2021</p>
       </footer>
     </main>
-
+    <script>
+      function hideOnClick() {
+        var ann = document.getElementById('ann-container')
+        ann.style.display = 'none';
+      }
+    </script>
   </body>
 </html>
